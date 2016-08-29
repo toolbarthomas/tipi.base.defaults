@@ -1,0 +1,52 @@
+@mixin selection-style(
+	$color: false,
+	$background: false
+) {
+	::-moz-selection {
+		@if $color != false {
+			color: $color;
+		}
+
+		@if $background != false {
+			background: $background;
+		}
+
+		text-shadow: none;
+	}
+
+	input::-moz-selection {
+		@if $color != false {
+			color: $color;
+		}
+
+		@if $background != false {
+			background: $background;
+		}
+
+		text-shadow: none;
+	}
+
+	::selection {
+		@if $color != false {
+			color: $color;
+		}
+
+		@if $background != false {
+			background: $background;
+		}
+
+		text-shadow: none;
+	}
+
+	input::selection {
+		@if $color != false {
+			color: $color;
+		}
+
+		@if $background != false {
+			background: $background;
+		}
+
+		text-shadow: none;
+	}
+}

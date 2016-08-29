@@ -1,0 +1,17 @@
+{
+  "name": "tipi.base.defaults",
+  "homepage": "https://github.com/toolbarthomas/tipi.base.defaults",
+  "authors": [
+    "Thomas van der Velde <contact@toolbarthomas.net>"
+  ],
+  "description": "Reset stylesheet for Tipi",
+  "keywords": [
+    "toolbarthomas",
+    "modular",
+    "tipi",
+    "defaults",
+    "css-reset"
+  ],
+  "license": "MIT",
+  "main": "_tipi.base.defaults.scss"
+}
